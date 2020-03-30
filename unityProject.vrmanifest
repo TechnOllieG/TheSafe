@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.escaperoom.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\Oliver Lebert\\Google Drive\\Programmering 1\\Unity\\Escape Room\\Escape Room (Unity)\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "Escape Room [Testing]"
+        }
+      }
+    }
+  ]
+}
