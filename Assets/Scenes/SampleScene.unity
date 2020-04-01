@@ -4543,7 +4543,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496062542}
-  m_LocalRotation: {x: 0.01745245, y: 0, z: 0, w: 0.99984777}
+  m_LocalRotation: {x: 0.03489949, y: 0, z: 0, w: 0.99939084}
   m_LocalPosition: {x: -0.0017000735, y: 0, z: 0.14899969}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -4552,7 +4552,7 @@ Transform:
   - {fileID: 1123894544}
   m_Father: {fileID: 574761525}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 2, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 4, y: 0, z: 0}
 --- !u!114 &496062544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4574,12 +4574,12 @@ MonoBehaviour:
   onFrozenDistanceThreshold:
     m_PersistentCalls:
       m_Calls: []
-  minAngle: 2
+  minAngle: 4
   freezeOnMin: 0
   onMinAngle:
     m_PersistentCalls:
       m_Calls: []
-  maxAngle: 179
+  maxAngle: 178
   freezeOnMax: 0
   onMaxAngle:
     m_PersistentCalls:
@@ -9524,7 +9524,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1126830147}
-  m_LocalRotation: {x: 0.008726558, y: -0, z: -0, w: 0.999962}
+  m_LocalRotation: {x: 0.01745245, y: 0, z: 0, w: 0.99984777}
   m_LocalPosition: {x: -0.0017000735, y: 0, z: 0.14899969}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -9532,7 +9532,7 @@ Transform:
   - {fileID: 425552407}
   m_Father: {fileID: 574761525}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 1, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 2, y: 0, z: 0}
 --- !u!114 &1126830149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9554,12 +9554,12 @@ MonoBehaviour:
   onFrozenDistanceThreshold:
     m_PersistentCalls:
       m_Calls: []
-  minAngle: 1
+  minAngle: 2
   freezeOnMin: 0
   onMinAngle:
     m_PersistentCalls:
       m_Calls: []
-  maxAngle: 178
+  maxAngle: 176
   freezeOnMax: 0
   onMaxAngle:
     m_PersistentCalls:
@@ -10206,7 +10206,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1175213693}
-  m_LocalRotation: {x: 0.026176924, y: -0, z: -0, w: 0.99965733}
+  m_LocalRotation: {x: 0.052335896, y: 0, z: 0, w: 0.9986295}
   m_LocalPosition: {x: -0.0017000735, y: 0, z: 0.14899969}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -10214,7 +10214,7 @@ Transform:
   - {fileID: 1043705253}
   m_Father: {fileID: 574761525}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 3, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 6, y: 0, z: 0}
 --- !u!114 &1175213695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10236,7 +10236,7 @@ MonoBehaviour:
   onFrozenDistanceThreshold:
     m_PersistentCalls:
       m_Calls: []
-  minAngle: 3
+  minAngle: 6
   freezeOnMin: 0
   onMinAngle:
     m_PersistentCalls:
