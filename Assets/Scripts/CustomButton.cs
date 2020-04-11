@@ -2,44 +2,47 @@
 
 public class CustomButton : MonoBehaviour
 {
-    [Tooltip("Which button is this?")]
-    public int buttonIndex;
-
-    [Tooltip("Should be bound to the physical button object")]
-    public GameObject button;
-
-    [Tooltip("Material for when the button is clicked (The color it shines when being pressed down)")]
-    public Material clickButton;
-
-    [Tooltip("Should be bound to the object that contains the SafeController/Circular Drive etc.")]
-    public GameObject safeController;
-
-    // Variable to hold the previous material
+    [Tooltip("Once the button has been pressed it cannot be unpressed")]
+    public bool oneTime = false;
+    [Tooltip("Will toggle the pressed bool everytime you press the button")]
+    public bool Toggle = false;
+    [HideInInspector]
+    public bool pressed = false;
+    public Material secondMaterial;
     private Material oldMaterial;
-
-    // Variable to refer to the buttons Mesh Renderer
     private MeshRenderer meshRenderer;
 
-    // Local reference to the SafeController script
-    private SafeController safe;
-    void Start()
+    public void Start()
     {
-        // Assigns this.MeshRenderer to meshRenderer
-        meshRenderer = button.GetComponent<MeshRenderer>();
-        // Assigns the original material of the button to oldMaterial
+        meshRenderer = GetComponent<MeshRenderer>();
         oldMaterial = meshRenderer.material;
-        // Assigns the script SafeController to safe
-        safe = safeController.GetComponent<SafeController>();
     }
-    // Activates when the player starts pressing the button
-    void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision collision)
     {
-        safe.AddToStorage(buttonIndex);
-        meshRenderer.material = clickButton;
+        if(pressed && Toggle)
+        {
+            NotPressed();
+        }
+        else
+        {
+            Pressed();
+        }
     }
-    // Activates when button is no longer being pressed
-    void OnTriggerExit(Collider other)
+    private void OnCollisionExit(Collision collision)
+    {
+        if(!oneTime && !Toggle)
+        {
+            NotPressed();
+        }
+    }
+    private void NotPressed()
     {
         meshRenderer.material = oldMaterial;
+        pressed = false;
+    }
+    private void Pressed()
+    {
+        meshRenderer.material = secondMaterial;
+        pressed = true;
     }
 }
