@@ -6,7 +6,7 @@ using Valve.VR.InteractionSystem;
 [RequireComponent(typeof(Interactable))]
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(Throwable))]
-public class SnapToWall : MonoBehaviour
+public class SnapToPoint : MonoBehaviour
 {
     public float snapRadius = 0.05f;
     public bool showHint = true;
@@ -17,9 +17,20 @@ public class SnapToWall : MonoBehaviour
 
     private bool withinRadius = false;
     private bool holding = false;
+    private Rigidbody rb;
+    private bool isKinematic;
     void Start()
     {
         snapToMeshRenderer = snapToObject.GetComponent<MeshRenderer>();
+        rb = GetComponent<Rigidbody>();
+        if(rb.isKinematic)
+        {
+            isKinematic = true;
+        }
+        else
+        {
+            isKinematic = false;
+        }
     }
     void Update()
     {
@@ -46,8 +57,19 @@ public class SnapToWall : MonoBehaviour
     {
         if(withinRadius)
         {
+            if(!isKinematic)
+            {
+                rb.isKinematic = true;
+            }
             transform.position = snapToObject.transform.position;
             transform.rotation = snapToObject.transform.rotation;
+        }
+        else
+        {
+            if(!isKinematic)
+            {
+                rb.isKinematic = false;
+            }
         }
         snapToMeshRenderer.enabled = false;
         holding = false;
