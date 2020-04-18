@@ -14,11 +14,13 @@ public class LightController : MonoBehaviour
     private SwitchController mainScript;
     private SwitchController secretScript;
     private bool morseActive = false;
+    private AudioSource morseSound;
 
     void Start()
     {
         mainScript = mainSwitchController.GetComponent<SwitchController>();
         secretScript = secretSwitchController.GetComponent<SwitchController>();
+        morseSound = morseLight.GetComponent<AudioSource>();
     }
     void Update()
     {
@@ -118,9 +120,11 @@ public class LightController : MonoBehaviour
     void MorseOn()
     {
         morseLight.SetActive(true);
+        morseSound.Play();
     }
     void MorseOff()
     {
         morseLight.SetActive(false);
+        morseSound.Stop();
     }
 }

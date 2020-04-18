@@ -8,7 +8,9 @@ public class SnapToPoint : MonoBehaviour
 {
     public float snapRadius = 0.05f;
     public bool showHint = true;
-    
+    [Tooltip("Whether or not the object should be kinematic when not snapped to point")]
+    public bool isKinematic;
+
     public GameObject snapToObject;
     [HideInInspector]
     public MeshRenderer snapToMeshRenderer;
@@ -16,19 +18,10 @@ public class SnapToPoint : MonoBehaviour
     private bool withinRadius = false;
     private bool holding = false;
     private Rigidbody rb;
-    private bool isKinematic;
     void Start()
     {
         snapToMeshRenderer = snapToObject.GetComponent<MeshRenderer>();
         rb = GetComponent<Rigidbody>();
-        if(rb.isKinematic)
-        {
-            isKinematic = true;
-        }
-        else
-        {
-            isKinematic = false;
-        }
     }
     void Update()
     {
