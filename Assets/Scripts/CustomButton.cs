@@ -17,9 +17,9 @@ public class CustomButton : MonoBehaviour
         meshRenderer = GetComponent<MeshRenderer>();
         oldMaterial = meshRenderer.material;
     }
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if(pressed && Toggle)
+        if (pressed && Toggle)
         {
             NotPressed();
         }
@@ -28,9 +28,9 @@ public class CustomButton : MonoBehaviour
             Pressed();
         }
     }
-    private void OnCollisionExit(Collision collision)
+    private void OnTriggerExit(Collider other)
     {
-        if(!oneTime && !Toggle)
+        if (!oneTime && !Toggle)
         {
             NotPressed();
         }

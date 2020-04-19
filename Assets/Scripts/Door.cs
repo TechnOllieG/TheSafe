@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using Valve.VR.InteractionSystem;
 
 public class Door : MonoBehaviour
 {
@@ -6,27 +7,46 @@ public class Door : MonoBehaviour
     public GameObject doorButton;
     public GameObject openState;
     public float openCloseIncrement = 20;
+    public GameObject optionalTeleportPoint;
+    
     private CustomButton customButton;
-    private Vector3 oldPosition;
-    private Vector3 diffOpenClosed;
+    private float oldYPosition;
+    private float diffOpenClosed;
     private Vector3 incrementStep;
+    private bool optionalTeleportActive = false;
+    private TeleportPoint teleportPoint;
     void Start()
     {
         customButton = doorButton.GetComponent<CustomButton>();
-        oldPosition = transform.position;
+        oldYPosition = transform.position.y;
 
-        diffOpenClosed = oldPosition - openState.transform.position;
-        incrementStep = diffOpenClosed / openCloseIncrement;
+        diffOpenClosed = oldYPosition - openState.transform.position.y;
+        incrementStep = new Vector3(0,diffOpenClosed / openCloseIncrement,0);
+        if(optionalTeleportPoint != null)
+        {
+            teleportPoint = optionalTeleportPoint.GetComponent<TeleportPoint>();
+            teleportPoint.markerActive = false;
+        }
     }
     void Update()
     {
-        if(customButton.pressed && transform.position != openState.transform.position)
+        if(customButton.pressed && transform.position.y > openState.transform.position.y)
         {
             transform.position -= incrementStep;
+            if(optionalTeleportPoint != null && !optionalTeleportActive)
+            {
+                teleportPoint.markerActive = true;
+                optionalTeleportActive = true;
+            }
         }
-        if(!customButton.pressed && transform.position != oldPosition)
+        if(!customButton.pressed && transform.position.y < oldYPosition)
         {
             transform.position += incrementStep;
+            if (optionalTeleportPoint != null && optionalTeleportActive)
+            {
+                teleportPoint.markerActive = false;
+                optionalTeleportActive = false;
+            }
         }
     }
 }

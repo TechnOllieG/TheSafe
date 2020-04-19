@@ -6,7 +6,7 @@ using Valve.VR.InteractionSystem;
 [RequireComponent(typeof(Throwable))]
 public class SnapToPoint : MonoBehaviour
 {
-    public float snapRadius = 0.05f;
+    public float snapRadius = 0.5f;
     public bool showHint = true;
     [Tooltip("Whether or not the object should be kinematic when not snapped to point")]
     public bool isKinematic;
@@ -15,7 +15,6 @@ public class SnapToPoint : MonoBehaviour
     [HideInInspector]
     public MeshRenderer snapToMeshRenderer;
 
-    private bool withinRadius = false;
     private bool holding = false;
     private Rigidbody rb;
     void Start()
@@ -25,16 +24,31 @@ public class SnapToPoint : MonoBehaviour
     }
     void Update()
     {
-        if(holding)
+        if(transform.position != snapToObject.transform.position)
         {
-            if (Mathf.Abs(transform.position.x - snapToObject.transform.position.x) <= snapRadius || Mathf.Abs(transform.position.y - snapToObject.transform.position.y) <= snapRadius || Mathf.Abs(transform.position.z - snapToObject.transform.position.z) <= snapRadius)
+            if (Mathf.Abs(transform.position.x - snapToObject.transform.position.x) <= snapRadius && Mathf.Abs(transform.position.y - snapToObject.transform.position.y) <= snapRadius && Mathf.Abs(transform.position.z - snapToObject.transform.position.z) <= snapRadius)
             {
-                withinRadius = true;
-                snapToMeshRenderer.enabled = true;
+                if(holding)
+                {
+                    snapToMeshRenderer.enabled = true;
+                }
+                else
+                {
+                    snapToMeshRenderer.enabled = false;
+                    if (!isKinematic)
+                    {
+                        rb.isKinematic = true;
+                    }
+                    transform.position = snapToObject.transform.position;
+                    transform.rotation = snapToObject.transform.rotation;
+                }
             }
             else
             {
-                withinRadius = false;
+                if(!holding && !isKinematic)
+                {
+                    rb.isKinematic = false;
+                }
                 snapToMeshRenderer.enabled = false;
             }
         }
@@ -46,23 +60,6 @@ public class SnapToPoint : MonoBehaviour
 
     private void OnDetachedFromHand()
     {
-        if(withinRadius)
-        {
-            if(!isKinematic)
-            {
-                rb.isKinematic = true;
-            }
-            transform.position = snapToObject.transform.position;
-            transform.rotation = snapToObject.transform.rotation;
-        }
-        else
-        {
-            if(!isKinematic)
-            {
-                rb.isKinematic = false;
-            }
-        }
-        snapToMeshRenderer.enabled = false;
         holding = false;
     }
 }

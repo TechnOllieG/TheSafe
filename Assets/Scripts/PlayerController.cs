@@ -13,7 +13,6 @@ public class PlayerController : MonoBehaviour
     [Tooltip("Boolean action to use for sprint toggle")]
     public SteamVR_Action_Boolean sprintInput;
     
-
     [Tooltip("Walking speed (Smooth Locomotion)")]
     public float speed = 1;
 
