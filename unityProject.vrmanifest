@@ -2,7 +2,7 @@
   "source": "Unity",
   "applications": [
     {
-      "app_key": "application.generated.unity.thesafe.exe",
+      "app_key": "application.generated.unity.escaperoom.exe",
       "launch_type": "url",
       "url": "steam://launch/",
       "action_manifest_path": "C:\\Users\\Oliver Lebert\\Documents\\GitHub\\The-Safe\\Assets\\StreamingAssets\\SteamVR\\actions.json",
