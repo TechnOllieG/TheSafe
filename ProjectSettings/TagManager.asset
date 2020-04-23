@@ -16,8 +16,8 @@ TagManager:
   - Player
   - Button
   - Hands
-  - 
-  - 
+  - VRCamera
+  - StopHeadsetFade
   - 
   - 
   - 

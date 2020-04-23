@@ -763,7 +763,7 @@ GameObject:
   - component: {fileID: 28356748}
   - component: {fileID: 28356747}
   - component: {fileID: 28356746}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -858,7 +858,7 @@ GameObject:
   - component: {fileID: 37557368}
   - component: {fileID: 37557367}
   - component: {fileID: 37557366}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Shelf_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1957,7 +1957,7 @@ GameObject:
   - component: {fileID: 99444319}
   - component: {fileID: 99444318}
   - component: {fileID: 99444317}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2492,7 +2492,7 @@ GameObject:
   - component: {fileID: 127619208}
   - component: {fileID: 127619207}
   - component: {fileID: 127619206}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2746,7 +2746,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a3b71c3cdc35bd24e96959c21bbb5866, type: 2}
+  - {fileID: 2100000, guid: abe5a69413dbdf14caf2dd7967fc4688, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2776,7 +2776,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 161345114}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Drawer_1 Parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3265,7 +3265,7 @@ GameObject:
   - component: {fileID: 217695555}
   - component: {fileID: 217695554}
   - component: {fileID: 217695557}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Door_1 Parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3593,7 +3593,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a3b71c3cdc35bd24e96959c21bbb5866, type: 2}
+  - {fileID: 2100000, guid: abe5a69413dbdf14caf2dd7967fc4688, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3700,7 +3700,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a3b71c3cdc35bd24e96959c21bbb5866, type: 2}
+  - {fileID: 2100000, guid: abe5a69413dbdf14caf2dd7967fc4688, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4467,7 +4467,7 @@ GameObject:
   - component: {fileID: 302311227}
   - component: {fileID: 302311226}
   - component: {fileID: 302311229}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SmallDoor_1 Parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4618,7 +4618,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 306469352}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Inside_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4656,7 +4656,7 @@ GameObject:
   - component: {fileID: 308998599}
   - component: {fileID: 308998598}
   - component: {fileID: 308998597}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Shelf_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5200,7 +5200,7 @@ GameObject:
   - component: {fileID: 345047923}
   - component: {fileID: 345047922}
   - component: {fileID: 345047921}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Inside_Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5657,7 +5657,7 @@ GameObject:
   - component: {fileID: 384873476}
   - component: {fileID: 384873478}
   - component: {fileID: 384873477}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Inside_Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6355,7 +6355,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &427018836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6506,7 +6506,7 @@ GameObject:
   - component: {fileID: 436901558}
   - component: {fileID: 436901557}
   - component: {fileID: 436901556}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Door_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6620,7 +6620,7 @@ GameObject:
   - component: {fileID: 454757102}
   - component: {fileID: 454757101}
   - component: {fileID: 454757100}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Drawer_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6891,7 +6891,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 478542481}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6923,7 +6923,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 479422311}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Drawer_2 Parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6959,7 +6959,7 @@ GameObject:
   - component: {fileID: 491006756}
   - component: {fileID: 491006755}
   - component: {fileID: 491006754}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Shelf_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7808,7 +7808,7 @@ GameObject:
   - component: {fileID: 554087649}
   - component: {fileID: 554087648}
   - component: {fileID: 554087650}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Door_1_Inside
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7902,7 +7902,7 @@ GameObject:
   - component: {fileID: 555534659}
   - component: {fileID: 555534658}
   - component: {fileID: 555534657}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Wall_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8482,7 +8482,7 @@ GameObject:
   - component: {fileID: 606793886}
   - component: {fileID: 606793885}
   - component: {fileID: 606793884}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Wall_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8712,7 +8712,7 @@ GameObject:
   - component: {fileID: 624869652}
   - component: {fileID: 624869651}
   - component: {fileID: 624869650}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SmallDoor_1 Parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9037,7 +9037,7 @@ GameObject:
   - component: {fileID: 650633870}
   - component: {fileID: 650633869}
   - component: {fileID: 650633868}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Inside_Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9129,8 +9129,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 651390250}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0.70710677, w: 0}
-  m_LocalPosition: {x: -1.934, y: 0.3071, z: -0.258}
-  m_LocalScale: {x: 0.050000016, y: 0.05, z: 0.050000016}
+  m_LocalPosition: {x: -2.183, y: 0.2906, z: 0.184}
+  m_LocalScale: {x: 0.075, y: 0.075, z: 0.075}
   m_Children:
   - {fileID: 1985930290}
   - {fileID: 1726007130}
@@ -9262,7 +9262,7 @@ GameObject:
   - component: {fileID: 671390951}
   - component: {fileID: 671390953}
   - component: {fileID: 671390952}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Inside_Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9339,7 +9339,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 672042905}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10155,7 +10155,7 @@ GameObject:
   - component: {fileID: 748370570}
   - component: {fileID: 748370569}
   - component: {fileID: 748370568}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Door_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10733,7 +10733,7 @@ GameObject:
   - component: {fileID: 828009242}
   - component: {fileID: 828009241}
   - component: {fileID: 828009240}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Inside_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11222,7 +11222,7 @@ GameObject:
   - component: {fileID: 850547157}
   - component: {fileID: 850547156}
   - component: {fileID: 850547155}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Door_2 Parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11658,7 +11658,7 @@ GameObject:
   - component: {fileID: 887556277}
   - component: {fileID: 887556276}
   - component: {fileID: 887556275}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Door_3 Parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12272,7 +12272,7 @@ GameObject:
   - component: {fileID: 933778794}
   - component: {fileID: 933778793}
   - component: {fileID: 933778792}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12497,7 +12497,7 @@ GameObject:
   - component: {fileID: 949463339}
   - component: {fileID: 949463338}
   - component: {fileID: 949463340}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Door_3 Parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13133,7 +13133,7 @@ GameObject:
   - component: {fileID: 982139161}
   - component: {fileID: 982139160}
   - component: {fileID: 982139159}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13384,7 +13384,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a3b71c3cdc35bd24e96959c21bbb5866, type: 2}
+  - {fileID: 2100000, guid: abe5a69413dbdf14caf2dd7967fc4688, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13463,7 +13463,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a3b71c3cdc35bd24e96959c21bbb5866, type: 2}
+  - {fileID: 2100000, guid: abe5a69413dbdf14caf2dd7967fc4688, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13514,7 +13514,7 @@ GameObject:
   - component: {fileID: 1012717756}
   - component: {fileID: 1012717755}
   - component: {fileID: 1012717754}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Drawer_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13712,7 +13712,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1029320706}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13745,7 +13745,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1032542991}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Drawer_2 Parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13968,7 +13968,7 @@ GameObject:
   - component: {fileID: 1044191492}
   - component: {fileID: 1044191494}
   - component: {fileID: 1044191493}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Inside_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15869,7 +15869,7 @@ GameObject:
   - component: {fileID: 1209636078}
   - component: {fileID: 1209636080}
   - component: {fileID: 1209636079}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Inside_Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16180,7 +16180,7 @@ GameObject:
   - component: {fileID: 1231548409}
   - component: {fileID: 1231548408}
   - component: {fileID: 1231548407}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Shelf_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16473,7 +16473,7 @@ GameObject:
   - component: {fileID: 1238036218}
   - component: {fileID: 1238036217}
   - component: {fileID: 1238036212}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16630,7 +16630,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1244195469}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Closet Guest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16989,7 +16989,7 @@ GameObject:
   - component: {fileID: 1260858492}
   - component: {fileID: 1260858494}
   - component: {fileID: 1260858493}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Inside_Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17650,7 +17650,7 @@ GameObject:
   - component: {fileID: 1309726001}
   - component: {fileID: 1309726000}
   - component: {fileID: 1309726003}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Door_2 Parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17885,7 +17885,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1316967274}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Drawer_3 Parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18273,7 +18273,7 @@ GameObject:
   - component: {fileID: 1361628767}
   - component: {fileID: 1361628769}
   - component: {fileID: 1361628768}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Inside_Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18352,7 +18352,7 @@ GameObject:
   - component: {fileID: 1374131710}
   - component: {fileID: 1374131712}
   - component: {fileID: 1374131711}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Door_1_Inside
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19346,7 +19346,7 @@ GameObject:
   - component: {fileID: 1426800168}
   - component: {fileID: 1426800167}
   - component: {fileID: 1426800166}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19702,7 +19702,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1464898995}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Drawer_1 Parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20253,7 +20253,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1503681020}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20290,7 +20290,7 @@ GameObject:
   - component: {fileID: 1505111528}
   - component: {fileID: 1505111527}
   - component: {fileID: 1505111526}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22047,7 +22047,7 @@ GameObject:
   - component: {fileID: 1675553665}
   - component: {fileID: 1675553664}
   - component: {fileID: 1675553666}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SmallDoor_1_Inside
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22138,7 +22138,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1676590541}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Drawer_3 Parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22587,7 +22587,7 @@ GameObject:
   - component: {fileID: 1719761479}
   - component: {fileID: 1719761478}
   - component: {fileID: 1719761477}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23131,7 +23131,7 @@ GameObject:
   - component: {fileID: 1754431147}
   - component: {fileID: 1754431146}
   - component: {fileID: 1754431145}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SmallDoor_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23557,7 +23557,7 @@ GameObject:
   - component: {fileID: 1785632401}
   - component: {fileID: 1785632400}
   - component: {fileID: 1785632399}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Wall_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23651,7 +23651,7 @@ GameObject:
   - component: {fileID: 1786971166}
   - component: {fileID: 1786971165}
   - component: {fileID: 1786971160}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23836,7 +23836,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1787308754}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Inside_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23920,7 +23920,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a3b71c3cdc35bd24e96959c21bbb5866, type: 2}
+  - {fileID: 2100000, guid: abe5a69413dbdf14caf2dd7967fc4688, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24115,7 +24115,7 @@ GameObject:
   - component: {fileID: 1816913079}
   - component: {fileID: 1816913081}
   - component: {fileID: 1816913080}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Inside_Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24230,7 +24230,7 @@ GameObject:
   - component: {fileID: 1823099664}
   - component: {fileID: 1823099666}
   - component: {fileID: 1823099665}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SmallDoor_1_Inside
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24960,7 +24960,7 @@ GameObject:
   - component: {fileID: 1870333574}
   - component: {fileID: 1870333573}
   - component: {fileID: 1870333572}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Door_1 Parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25204,7 +25204,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1884548000}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25436,7 +25436,7 @@ GameObject:
   - component: {fileID: 1904474296}
   - component: {fileID: 1904474295}
   - component: {fileID: 1904474294}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Drawer_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25723,7 +25723,7 @@ GameObject:
   - component: {fileID: 1914417068}
   - component: {fileID: 1914417067}
   - component: {fileID: 1914417066}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Door_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26261,7 +26261,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a3b71c3cdc35bd24e96959c21bbb5866, type: 2}
+  - {fileID: 2100000, guid: abe5a69413dbdf14caf2dd7967fc4688, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -26462,7 +26462,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a3b71c3cdc35bd24e96959c21bbb5866, type: 2}
+  - {fileID: 2100000, guid: abe5a69413dbdf14caf2dd7967fc4688, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -26524,8 +26524,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1985930289}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.54, y: -0.098, z: 10.91}
-  m_LocalScale: {x: 1, y: 0.4, z: 1}
+  m_LocalPosition: {x: -17.54, y: -0.181, z: 10.91}
+  m_LocalScale: {x: 1, y: 0.51, z: 1}
   m_Children: []
   m_Father: {fileID: 651390251}
   m_RootOrder: 0
@@ -26695,7 +26695,7 @@ GameObject:
   - component: {fileID: 1994558322}
   - component: {fileID: 1994558321}
   - component: {fileID: 1994558316}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26836,7 +26836,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a3b71c3cdc35bd24e96959c21bbb5866, type: 2}
+  - {fileID: 2100000, guid: abe5a69413dbdf14caf2dd7967fc4688, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -27310,7 +27310,7 @@ GameObject:
   - component: {fileID: 2040145696}
   - component: {fileID: 2040145695}
   - component: {fileID: 2040145694}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27402,7 +27402,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2042653960}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28028,7 +28028,7 @@ GameObject:
   - component: {fileID: 2093715288}
   - component: {fileID: 2093715287}
   - component: {fileID: 2093715286}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30098,7 +30098,7 @@ GameObject:
   - component: {fileID: 158683543685237100}
   - component: {fileID: 7069238947350317160}
   - component: {fileID: 9037738233285326965}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Door_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33639,7 +33639,7 @@ GameObject:
   - component: {fileID: 5976904835110070708}
   - component: {fileID: 254097794960933448}
   - component: {fileID: 1570079552085591726}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Door_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34059,7 +34059,7 @@ GameObject:
   - component: {fileID: 8649965212322835786}
   - component: {fileID: 295581831246740947}
   - component: {fileID: 6001167933067841697}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Wall_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34410,7 +34410,7 @@ GameObject:
   - component: {fileID: 1783188412564781363}
   - component: {fileID: 7236930431742452713}
   - component: {fileID: 9053635254842888202}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Shelf_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37864,7 +37864,7 @@ GameObject:
   - component: {fileID: 544308328268690485}
   - component: {fileID: 8681792101823559541}
   - component: {fileID: 1347034016586252937}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Wall_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38371,10 +38371,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3195603551738545993, guid: 447de799c63c90446ba981036e2c2ea8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 3195603551738554449, guid: 447de799c63c90446ba981036e2c2ea8,
         type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3195603551738557363, guid: 447de799c63c90446ba981036e2c2ea8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3195603551738743405, guid: 447de799c63c90446ba981036e2c2ea8,
         type: 3}
@@ -38384,7 +38394,7 @@ PrefabInstance:
     - target: {fileID: 3195603551738743405, guid: 447de799c63c90446ba981036e2c2ea8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.69
+      value: 0.573
       objectReference: {fileID: 0}
     - target: {fileID: 3195603551738743405, guid: 447de799c63c90446ba981036e2c2ea8,
         type: 3}
@@ -38807,7 +38817,7 @@ GameObject:
   - component: {fileID: 1164819764311267487}
   - component: {fileID: 6257306387126287097}
   - component: {fileID: 3277209176583612625}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Wall_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42531,7 +42541,7 @@ GameObject:
   - component: {fileID: 7708785308959065241}
   - component: {fileID: 536963924871825815}
   - component: {fileID: 8071305628195953505}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Door_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44989,7 +44999,7 @@ GameObject:
   - component: {fileID: 2296859115296663099}
   - component: {fileID: 2348831640379412615}
   - component: {fileID: 4454052245295203571}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46502,7 +46512,7 @@ GameObject:
   - component: {fileID: 3744329712908897811}
   - component: {fileID: 8004631765940784328}
   - component: {fileID: 1478179538899641513}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Shelf_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46823,7 +46833,7 @@ GameObject:
   - component: {fileID: 6334268198195304918}
   - component: {fileID: 332614196739301770}
   - component: {fileID: 3790191563107893838}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Shelf_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51420,7 +51430,7 @@ GameObject:
   - component: {fileID: 7318218178523963836}
   - component: {fileID: 7318218178523963835}
   - component: {fileID: 7318218178523963834}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Drawer_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54644,7 +54654,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5006512735991726435}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Closet Master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55440,7 +55450,7 @@ GameObject:
   - component: {fileID: 5742002439413539605}
   - component: {fileID: 7347997199939842481}
   - component: {fileID: 2972001050840619393}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SmallDoor_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55930,7 +55940,7 @@ GameObject:
   - component: {fileID: 8659676709737195838}
   - component: {fileID: 8659676709737195837}
   - component: {fileID: 8659676709737195836}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Drawer_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56508,7 +56518,7 @@ GameObject:
   - component: {fileID: 8845122754620449893}
   - component: {fileID: 8845122754620449892}
   - component: {fileID: 8845122754620449891}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Drawer_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56823,7 +56833,7 @@ GameObject:
   - component: {fileID: 4115847052328175175}
   - component: {fileID: 3206591770249603105}
   - component: {fileID: 3794684641738490880}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Shelf_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}

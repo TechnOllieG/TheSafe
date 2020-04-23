@@ -26,19 +26,16 @@ public class LightController : MonoBehaviour
     {
         if(!morseActive)
         {
-            if(!mainScript.active && normalLight.activeSelf)
-            {
-                normalLight.SetActive(false);
-            }
-            if(morseLight.activeSelf && !mainScript.active || !secretScript.active)
-            {
-                morseLight.SetActive(false);
-            }
-            if (mainScript.active && secretScript.active)
+            if (secretScript.active)
             {
                 morseActive = true;
                 normalLight.SetActive(false);
                 StartCoroutine(Morse());
+                return;
+            }
+            if (!mainScript.active && normalLight.activeSelf)
+            {
+                normalLight.SetActive(false);
             }
             else if (mainScript.active && !normalLight.activeSelf)
             {
@@ -47,7 +44,7 @@ public class LightController : MonoBehaviour
         }
         else
         {
-            if(!mainScript.active || !secretScript.active)
+            if(!secretScript.active)
             {
                 morseActive = false;
                 StopAllCoroutines();
