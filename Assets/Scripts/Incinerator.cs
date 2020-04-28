@@ -25,6 +25,10 @@ public class Incinerator : MonoBehaviour
     }
     private void Update()
     {
+        if(!buttonScript.active && syringe.transform.position == syringeSnapTo.transform.position)
+        {
+            buttonScript.active = true;
+        }
         if(buttonScript.pressed && syringe.transform.position == syringeSnapTo.transform.position && !initIncinerator)
         {
             if(leftDoor.transform.localEulerAngles.x != leftDoorClosed.transform.localEulerAngles.x && rightDoor.transform.localEulerAngles.x != rightDoorClosed.transform.localEulerAngles.x)

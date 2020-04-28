@@ -8,6 +8,7 @@ public class CustomButton : MonoBehaviour
     public bool Toggle = false;
     [HideInInspector]
     public bool pressed = false;
+    public bool active = false;
     public Material secondMaterial;
     private Material oldMaterial;
     private MeshRenderer meshRenderer;
@@ -19,18 +20,18 @@ public class CustomButton : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (pressed && Toggle)
+        if (pressed && Toggle && active)
         {
             NotPressed();
         }
-        else
+        else if(active)
         {
             Pressed();
         }
     }
     private void OnTriggerExit(Collider other)
     {
-        if (!oneTime && !Toggle)
+        if (!oneTime && !Toggle && active)
         {
             NotPressed();
         }
