@@ -8,8 +8,8 @@ public class SafeController : MonoBehaviour
     //-----------------------------------------------------------------------------
     // Visible in Inspector
     //-----------------------------------------------------------------------------
-    public Material acceptMaterial;
-    public Material denyMaterial;
+    public Material acceptMaterial; // The material to apply to the indicator light when code is correct.
+    public Material denyMaterial; // The material to apply to the indicator light when code is incorrect.
     [Tooltip("Element 0 = Digit 1, Element 1 = Digit 2 etc. Don't Change Length!")]
     public int[] correctCode;
 
@@ -17,29 +17,20 @@ public class SafeController : MonoBehaviour
     public GameObject indicatorObject;
     //-----------------------------------------------------------------------------
 
-    // Variable to refer to this.circularDrive
-    private CircularDrive circularDrive;
-    // Variable to save original indicator material (should be idle)
-    private Material oldMaterial;
-    // Variable to refer to the indicators mesh renderer component
+    private CircularDrive circularDrive; // Variable to refer to this gameObject's circularDrive script
+    private Material oldMaterial; // Previously applied material to the indicator light (should be idle)
     private MeshRenderer indicatorMeshRenderer;
-    // Array to store the code being inputed
     private int[] codeStorage = new int[4];
-    // The index of codeStorage the next digit should be written to
-    private int storageIndex = 0;
+    private int storageIndex = 0; // The index of codeStorage the next digit should be written to
 
-    // Bool to stop Controller when safe is unlocked
-    private bool unlocked = false;
+    private bool unlocked = false;  // Bool to stop Controller when safe is unlocked
 
     //-----------------------------------------------------------------------------
     void Start()
     {
-        // Assign this.CircularDrive to variable circularDrive
-        circularDrive = GetComponent<CircularDrive>();
-        // Assign the indicators mesh renderer to indicatorMeshRenderer
-        indicatorMeshRenderer = indicatorObject.GetComponent<MeshRenderer>();
-        // Assign the original material of the indicator to indicatorOldMaterial
-        oldMaterial = indicatorMeshRenderer.material;
+        circularDrive = GetComponent<CircularDrive>(); // Assign the component this.CircularDrive to variable circularDrive
+        indicatorMeshRenderer = indicatorObject.GetComponent<MeshRenderer>(); // Assign the indicators mesh renderer to indicatorMeshRenderer
+        oldMaterial = indicatorMeshRenderer.material; // Assign the original material of the indicator to indicatorOldMaterial
     }
 
     void Update()

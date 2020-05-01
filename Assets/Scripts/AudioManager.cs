@@ -17,7 +17,6 @@ public class AudioManager : MonoBehaviour
 
     private bool initIntroCall = false;
     private bool initOpenSafeCall = false;
-    private bool headsetOnHeadBool;
     private Sound nowPlaying;
     void Awake()
     {
