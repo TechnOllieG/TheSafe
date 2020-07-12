@@ -10,7 +10,7 @@ public class ColliderFollowHeadset : MonoBehaviour
     [Tooltip("Your VR Camera should be tied to the variable below")]
     public Transform centerEye;
 
-     [Tooltip("The Gimme variable defines the maximum distance the camera is allowed to move from the character controller before the character controller is teleported to the Center Eye.\n\nThis allows you to lean over tables without being blocked. Setting this value to 0 removes the \"Gimme\" and the charController follows you always")]
+    [Tooltip("The Gimme variable defines the maximum distance the camera is allowed to move from the character controller before the character controller is teleported to the Center Eye.\n\nThis allows you to lean over tables without being blocked. Setting this value to 0 removes the \"Gimme\" and the charController follows you always")]
     public float gimme = 0.5f;
 
     [Header("Smooth Locomotion")]

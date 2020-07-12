@@ -54,7 +54,7 @@ public class LightController : MonoBehaviour
     }
     IEnumerator Morse()
     {
-        normalLight.SetActive(false); // Turns off 
+        normalLight.SetActive(false);
         mathNote.SetActive(true);
         while(morseActive)
         {

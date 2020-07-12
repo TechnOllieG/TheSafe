@@ -7681,60 +7681,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2954858793080512207, guid: 00324a5b3b1b5704e9c8022c9e18c4f3, type: 3}
---- !u!114 &536894829
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1434048729637985462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attachmentFlags: 44
-  attachmentOffset: {fileID: 0}
-  catchingSpeedThreshold: -1
-  releaseVelocityStyle: 1
-  releaseVelocityTimeOffset: -0.011
-  scaleReleaseVelocity: 1.1
-  scaleReleaseVelocityThreshold: -1
-  scaleReleaseVelocityCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0.1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  restoreOriginalParent: 0
-  onPickUp:
-    m_PersistentCalls:
-      m_Calls: []
-  onDetachFromHand:
-    m_PersistentCalls:
-      m_Calls: []
-  onHeldUpdate:
-    m_PersistentCalls:
-      m_Calls: []
-  interactable: {fileID: 0}
 --- !u!54 &536894830
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13069,11 +13015,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1288045789}
     m_Modifications:
+    - target: {fileID: 757123250371796847, guid: 6e09c92eb5bad1648b48015d9e0f39d2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c67cfa0e217adfc41a7887bb6f87e206, type: 2}
     - target: {fileID: 2061036773801442692, guid: 6e09c92eb5bad1648b48015d9e0f39d2,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3915763660713182869, guid: 6e09c92eb5bad1648b48015d9e0f39d2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c67cfa0e217adfc41a7887bb6f87e206, type: 2}
     - target: {fileID: 8948901223785391667, guid: 6e09c92eb5bad1648b48015d9e0f39d2,
         type: 3}
       propertyPath: m_Name
@@ -24936,6 +24892,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2091672701}
     m_Modifications:
+    - target: {fileID: 757123250371796847, guid: 6e09c92eb5bad1648b48015d9e0f39d2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c67cfa0e217adfc41a7887bb6f87e206, type: 2}
+    - target: {fileID: 3915763660713182869, guid: 6e09c92eb5bad1648b48015d9e0f39d2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c67cfa0e217adfc41a7887bb6f87e206, type: 2}
     - target: {fileID: 8948901223785391667, guid: 6e09c92eb5bad1648b48015d9e0f39d2,
         type: 3}
       propertyPath: m_Name
@@ -33029,8 +32995,8 @@ GameObject:
   - component: {fileID: 4803220833336109853}
   - component: {fileID: 536894830}
   - component: {fileID: 536894832}
-  - component: {fileID: 536894829}
   - component: {fileID: 536894831}
+  - component: {fileID: 1434048729637985463}
   m_Layer: 13
   m_Name: Book_2
   m_TagString: Untagged
@@ -33038,6 +33004,60 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1434048729637985463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434048729637985462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentFlags: 44
+  attachmentOffset: {fileID: 0}
+  catchingSpeedThreshold: -1
+  releaseVelocityStyle: 1
+  releaseVelocityTimeOffset: -0.011
+  scaleReleaseVelocity: 1.1
+  scaleReleaseVelocityThreshold: -1
+  scaleReleaseVelocityCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  restoreOriginalParent: 0
+  onPickUp:
+    m_PersistentCalls:
+      m_Calls: []
+  onDetachFromHand:
+    m_PersistentCalls:
+      m_Calls: []
+  onHeldUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  interactable: {fileID: 0}
 --- !u!23 &1435501991518164851
 MeshRenderer:
   m_ObjectHideFlags: 0
